@@ -12,10 +12,12 @@ public class Examinador {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        Jpanes hoj = new Jpanes();
-        hoj.sesion();
+        //Jpanes hoj = new Jpanes();
+        //hoj.sesion();
         //calificar cc = new calificar();
         //cc.calf();
+        hojaDeRespuestas hj = new hojaDeRespuestas("Si", "Yo mero3", 15, "Fisica", "Hoy");
+        hj.generarHoja();
     }
     
 }
