@@ -16,7 +16,7 @@ public class Examinador {
         //hoj.sesion();
         //calificar cc = new calificar();
         //cc.calf();
-        hojaDeRespuestas hj = new hojaDeRespuestas("Si", "Yo mero3", 15, "Fisica", "Hoy");
+        hojaDeRespuestas hj = new hojaDeRespuestas("Si", "Yo mero3", 92, "Fisica", "Hoy");
         hj.generarHoja();
     }
     

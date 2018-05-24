@@ -32,6 +32,7 @@ public class hojaDeRespuestas {
         fecha = fech;
         materia = mater;
         maestro = maest;
+        numReactivos = numPreguntas;
     }
     public void generarHoja(){
         try{
